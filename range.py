@@ -1,0 +1,6 @@
+li = list(range(1,50,1))
+print(li)
+li = list(range(2,50,2))
+print("even : ",li)
+li = list(range(1,50,2))
+print("odd :" ,li)
