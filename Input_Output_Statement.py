@@ -56,3 +56,25 @@ print("stud NO\t\tName\t\tFees")
 print("1\t\tabc\t\t5000")
 print("2\t\tabc2\t\t4000")
 print("3\t\tabc3\t\t3000")
+
+n1,n2,n3=1,2,3
+print("number1={0}".format(n1)) 
+print("number1={0},number2={1},number3={2}".format(n1,n2,n3))
+print("number1={1},number2={0},number3={2}".format(n1,n2,n3))
+
+name,salary='ravi',12500.7590909
+print("hello {0}, your salary is {1}".format(name,salary))
+
+#using Alias
+print("hello {n}, your salary is {s}".format(n=name,s=salary))
+print("hello {:s}, your salary is {:.2f}".format(name,salary))
+
+print("hello %s, your salary is %.2f"%(name,salary))
+
+#input statements:-
+
+str = input("Enter your name :- ")
+print(str)
+
+num = int(input("enter a num : "))
+print(num)
