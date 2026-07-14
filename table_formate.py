@@ -1,0 +1,1 @@
+print("Stud NO\t\tName\t\tFee")

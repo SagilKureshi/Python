@@ -1,0 +1,12 @@
+import sys
+print("S = ",sys.argv[1])
+print("K = ",sys.argv[2])
+print("S + K : ",int((sys.argv[1]))+int((sys.argv[2])))
+
+n = len(sys.argv)
+print("Total Arguments : ",n)
+args = sys.argv
+print("Arguments = ",args)
+
+for i in args:
+    print(i)
