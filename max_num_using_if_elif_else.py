@@ -1,0 +1,13 @@
+no1 = int(input("Enter No.1 : "))
+no2 = int(input("Enter No.2 : "))
+no3 = int(input("Enter No.3 : "))
+
+if no2 < no1 > no3:
+    print(f"{no1} is maximum")
+elif no1 < no2 > no3:
+    print(f"{no2} is maximum")
+elif no1 < no3 > no2:
+    print(f"{no3} is maximum")
+
+else:
+    print("2 or more number has same value")
