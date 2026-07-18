@@ -1,7 +1,7 @@
 import sys
-no1 = sys.argv[1]
-no2 = sys.argv[2]
-no3 = sys.argv[3]
+no1 = int(sys.argv[1])
+no2 = int(sys.argv[2])
+no3 = int(sys.argv[3])
 
 if no2 > no1 < no3:
     print(f"{no1} is minimum")
