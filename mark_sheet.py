@@ -13,6 +13,7 @@ total = sub1+sub2+sub3
 
 print("Total : ",total)
 
+
 per = total/3
 
 print(per)
