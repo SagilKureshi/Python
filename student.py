@@ -13,6 +13,6 @@ s.setAddress("Asia")
 s.setMarks(86)
 
 print("id : ",s.getId())
-print("name : ",s.getName())
+print("name : ",s.getName())en
 print("address :",s.getAddress())
 print("Marks : ",s.getMarks())
