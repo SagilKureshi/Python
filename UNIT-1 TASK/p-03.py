@@ -1,5 +1,3 @@
-# Program to demonstrate id(), type() and range()
-
 name = "Sagil"
 
 print("ID of name:", id(name))
